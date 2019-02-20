@@ -38,7 +38,7 @@ def main():
 	"""
 
 	# load the weights from file
-	agent.qnetwork_local.load_state_dict(torch.load('checkpoint1000.pth'))
+	agent.qnetwork_local.load_state_dict(torch.load('checkpoint.pth'))
 
 	for i in range(1):
 		path_x = [start_pos[0]]
