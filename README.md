@@ -4,4 +4,5 @@ A rudimentary exploration into reinforcement learning in which an agent attempts
 ![contour map](assets/episode.png)
 
 Red cross:  start point
+
 Blue cross: end point
