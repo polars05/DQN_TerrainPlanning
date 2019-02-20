@@ -69,7 +69,6 @@ def main():
 
 def dqn(n_episodes=4000, max_t=3000, eps_start=1.0, eps_end=0.01, eps_decay=0.995):
 	agent = Agent(state_size=3, action_size=8, seed=0)
-	agent.qnetwork_local.load_state_dict(torch.load('ckpt/checkpoint2000.pth'))
 
 	start_pos = (200,600)
 	end_pos = (800,375)
